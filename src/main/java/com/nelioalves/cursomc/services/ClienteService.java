@@ -47,6 +47,7 @@ public class ClienteService {
 			throw new DataIntegrityException("Não é possível excluir um cliente que tenha relacionamentos.");
 		}
 	}
+	
 
 	public List<Cliente> findAll() {
 		return repo.findAll();
